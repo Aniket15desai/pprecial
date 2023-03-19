@@ -35,7 +35,7 @@ const Timeline = () => {
                             <div class="h-full w-1 bg-[#BB6A38] pointer-events-none"></div>
                         </div>
                         <div
-                            class="text-black w-16 h-16 lg:right-8 sm:left-4 absolute top-1/2 -mt-3 rounded-full bg-grey-100 shadow flex justify-center text-center items-center"
+                            class="text-black w-16 h-16 lg:right-8 xs:left-4 absolute top-1/2 -mt-3 rounded-full bg-grey-100 shadow flex justify-center text-center items-center"
                         >2016</div>
                     </div>
                     <div
@@ -73,7 +73,7 @@ const Timeline = () => {
                             <div class="h-full w-1 bg-[#BB6A38] pointer-events-none"></div>
                         </div>
                         <div
-                            class="text-black w-16 h-16 lg:right-8 sm:left-4 absolute top-1/2 -mt-3 rounded-full bg-grey-100 shadow flex justify-center text-center items-center"
+                            class="text-black w-16 h-16 lg:right-8 xs:left-4 absolute top-1/2 -mt-3 rounded-full bg-grey-100 shadow flex justify-center text-center items-center"
                         >2023</div>
                     </div>
                     <div
