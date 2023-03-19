@@ -8,7 +8,7 @@ import { getAuth } from "firebase/auth";
 // Your web app's Firebase configuration
 const firebaseConfig = {
     apiKey: "AIzaSyBrfFdnYZqoaq_9vwFoXcelQnFiFiMco28",
-    authDomain: "https://aniketapprecial.netlify.app/",
+    authDomain: "auth-pprecial-bbd43.firebaseapp.com",
     projectId: "auth-pprecial-bbd43",
     storageBucket: "auth-pprecial-bbd43.appspot.com",
     messagingSenderId: "775926312350",
