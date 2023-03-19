@@ -35,7 +35,7 @@ const About = () => {
                         empower people to improve their productivity, achieve their goals,
                         and bolster both personal and business lives.
                     </p>
-                    <img src='/assets/images/mission.svg' className='absolute top-4 -left-12 opacity-[0.1]' />
+                    <img src='/assets/images/mission.svg' className='absolute top-4 -left-12 opacity-[0.1]' alt='IMG' />
                 </div>
                 <div class="block relative max-w-sm h-96 lg:mb-0 mb-4 rounded-lg text-center bg-white shadow-[0_4px_51px_4px_rgba(0,0,0,0.08)] overflow-hidden">
                     <h5 class="text-4xl p-8 font-medium leading-tight text-neutral-800 dark:text-neutral-50">
@@ -45,7 +45,7 @@ const About = () => {
                         To improve productivity and enhance connectivity worldwide by
                         leveraging the power of the internet.
                     </p>
-                    <img src='/assets/images/vission.svg' className='absolute top-10 -left-12 opacity-[0.1]' />
+                    <img src='/assets/images/vission.svg' className='absolute top-10 -left-12 opacity-[0.1]' alt='IMG' />
                 </div>
                 <div class="block relative max-w-sm h-96 lg:mb-0 mb-4 rounded-lg text-center bg-white shadow-[0_4px_51px_4px_rgba(0,0,0,0.08)] overflow-hidden">
                     <h5 class="text-4xl p-8 font-medium leading-tight text-neutral-800 dark:text-neutral-50">
@@ -57,7 +57,7 @@ const About = () => {
                         prioritise what matters and hold the key to creating solutions that
                         revolutionise online experiences.
                     </p>
-                    <img src='/assets/images/values.svg' className='absolute top-0 -left-12 opacity-[0.1]' />
+                    <img src='/assets/images/values.svg' className='absolute top-0 -left-12 opacity-[0.1]' alt='IMG' />
                 </div>
             </div>
         </>

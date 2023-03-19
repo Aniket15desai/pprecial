@@ -36,7 +36,7 @@ const Hero = () => {
                 </div>
                 <div className="flex justify-center col-span-6 mt-5"><img src='/assets/images/heroSVG.gif' alt='Hero-Img' width={630} height={535} /></div>
             </div>
-            <div className="flex flex-col justify-center col-span-12 w-100 mt-5 items-center text-sm font-normal uppercase leading-7"><img src='/assets/images/Subtract.svg' width={49} height={48} /> Explore</div>
+            <div className="flex flex-col justify-center col-span-12 w-100 mt-5 items-center text-sm font-normal uppercase leading-7"><img src='/assets/images/Subtract.svg' width={49} height={48} alt="sub" /> Explore</div>
         </>
     )
 }

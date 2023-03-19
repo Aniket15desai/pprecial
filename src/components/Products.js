@@ -89,6 +89,7 @@ const Products = () => {
                         <img
                             src="/assets/images/googleMap.svg"
                             className="lg:absolute lg:-top-[350px]"
+                            alt='IMG'
                         />
                     </div>
                     <div className="flex flex-col lg:col-span-6 text-white lg:mt-28 lg:px-14 sm:col-span-12 lg:justify-start sm:justify-center">
@@ -112,6 +113,7 @@ const Products = () => {
                         </button>
                         <img
                             src="/assets/images/Google.svg"
+                            alt='IMG'
                         />
                     </div>
                 </div>

@@ -79,6 +79,7 @@ const Navbar = (props) => {
                                     <img
                                         src="/assets/images/toggleSwitch.svg"
                                         className={'w-7 h-7' + (toggle ? true : toggleClass)}
+                                        alt='IMG'
                                     />
                                 </div>
                             </div>
