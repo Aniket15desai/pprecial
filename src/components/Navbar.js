@@ -36,7 +36,7 @@ const Navbar = (props) => {
         if (user != null) {
             navigate('/dashboard');
         }
-    }, []);
+    }, [user]);
     return (
         <>
             <header className="relative z-50 w-full flex-none text-sm font-semibold leading-6 text-slate-900">
@@ -61,10 +61,10 @@ const Navbar = (props) => {
                         </div>
                         <div className="hidden lg:ml-8 lg:flex lg:items-center justify-between lg:pl-8">
                             {user != null &&
-                                <button className="text-[#BB6A37] border border-[#BB6A37] font-bold py-2 px-4 mr-3 rounded-xl inline-flex items-center" onClick={props.handleGoogleSignIn}>
+                                <NavLink to="/dashboard" className="text-[#BB6A37] border border-[#BB6A37] font-bold py-2 px-4 mr-3 rounded-xl inline-flex items-center" onClick={props.handleGoogleSignIn}>
                                     <img src='/assets/images/dash.svg' className="mr-2" alt='dashboard' />
                                     <span>Dashboard</span>
-                                </button>
+                                </NavLink>
                             }
                             <div className="flex flex-col justify-center items-center">
 
