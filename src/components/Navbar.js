@@ -36,7 +36,7 @@ const Navbar = (props) => {
         if (user != null) {
             navigate('/dashboard');
         }
-    }, [user]);
+    }, []);
     return (
         <>
             <header className="relative z-50 w-full flex-none text-sm font-semibold leading-6 text-slate-900">
