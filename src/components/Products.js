@@ -12,7 +12,7 @@ const Products = () => {
     }
     return (
         <div className="relative">
-            <div className="bg-gray-100 mt-36 pb-16">
+            <div className="bg-gray-100 mt-36 pb-16 px-4">
                 <div className="top-0 grid lg:grid-cols-12 sm:grid-cols-12 flex lg:flex:col sm:flex-row-reverse opacity-[1]">
                     <div className="flex flex-col lg:pl-24 mt-28 lg:col-span-6 sm:col-span-12 lg:justify-start sm:justify-center">
                         <h1 className="lg:text-[42px] p-0 m-0 lg:leading-[4rem] font-bold tracking-wide border-b-4 border-[#BB6A37]">
@@ -83,20 +83,20 @@ const Products = () => {
                     </div>
                 </div>
             </div>
-            <div className="bg-black h-screen mt-80 relative">
-                <div className="lg:grid lg:grid-cols-12 lg:mt-36 flex flex-col lg:mb-20">
+            <div className="bg-black h-screen lg:mt-80 relative px-4">
+                <div className="lg:grid lg:grid-cols-12 lg:mt-36 sm:grid-cols-6 flex flex-col-reverse lg:mb-20">
                     <div className="flex justify-center lg:mt-12 col-span-6 items-center">
                         <img
                             src="/assets/images/googleMap.svg"
-                            className="absolute -top-[350px]"
+                            className="lg:absolute lg:-top-[350px]"
                         />
                     </div>
-                    <div className="flex flex-col lg:col-span-6 text-white mt-28 lg:px-14 sm:col-span-12 lg:justify-start sm:justify-center">
-                        <h1 className="lg:text-[42px] p-0 m-0 lg:leading-[4rem] font-bold tracking-wide flex flex-row">
+                    <div className="flex flex-col lg:col-span-6 text-white lg:mt-28 lg:px-14 sm:col-span-12 lg:justify-start sm:justify-center">
+                        <h1 className="lg:text-[42px] p-0 m-0 lg:leading-[4rem] mt-12 lg:mt-0 font-bold tracking-wide flex flex-row">
                             <img src="/assets/images/Werugo.svg" alt="Img" className='mr-4' />
                             Werugo
                         </h1>
-                        <div className="font-normal text-lg leading-7 opacity-60 pr-28">
+                        <div className="font-normal text-lg leading-7 opacity-60 lg:pr-28">
                             A ground-breaking device tracker application for iOS and Android
                             devices, Werugo offers advanced features such as voice-activated
                             device location, real-time tracking, and remote control

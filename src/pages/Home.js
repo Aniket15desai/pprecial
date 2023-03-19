@@ -10,9 +10,9 @@ const Home = () => {
             <div className='max-[1024px]:px-4'>
                 <Hero />
                 <About />
-                <Products />
-                <Timeline />
             </div>
+            <Products />
+            <Timeline />
         </>
     )
 }

@@ -6,7 +6,7 @@ const Navbar = (props) => {
     const { user, logOut, googleSignIn } = UserAuth();
     const navigate = useNavigate();
     const [toggle, setToggle] = useState(true);
-    const [isOpen, setIsOpen] = useState(true);
+    const [isOpen, setIsOpen] = useState(false);
 
     const handleGoogleSignIn = async () => {
         try {
@@ -114,6 +114,11 @@ const Navbar = (props) => {
                     <NavLink to="/timeline" className="px-8" style={setActive}>
                         Timeline
                     </NavLink>
+                    {user?.displayName ? (
+                        <NavLink className='px-8' to="/" onClick={handleSignOut}>Logout</NavLink>
+                    ) : (
+                        <NavLink className="px-8" to='/' onClick={handleGoogleSignIn}>Sign in</NavLink>
+                    )}
                 </ul>
             </div>
         </>
