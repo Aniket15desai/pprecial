@@ -31,11 +31,11 @@ const Navbar = (props) => {
             borderBottom: isActive ? '2px solid #BB6A37' : 'none'
         }
     };
-
     useEffect(() => {
         if (user != null) {
             navigate('/dashboard');
         }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [user]);
     return (
         <>
