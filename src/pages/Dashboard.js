@@ -2,15 +2,8 @@ import React from 'react'
 import { UserAuth } from '../context/AuthContext';
 
 const Dashboard = () => {
-    const { logOut, user } = UserAuth();
+    const { user } = UserAuth();
 
-    const handleSignOut = async () => {
-        try {
-            await logOut();
-        } catch (error) {
-            console.log(error);
-        }
-    };
     return (
         <div className='p-8'>
             <h1 className='text-start text-[61px] font-bold'>Dashboard</h1>
