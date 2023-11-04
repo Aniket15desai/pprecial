@@ -7,7 +7,7 @@ import Timeline from '../components/Timeline'
 const Home = () => {
     return (
         <>
-            <div className='max-[1024px]:px-4'>
+            <div className='max-[1024px]:px-4 max-w-full'>
                 <Hero />
                 <About />
             </div>
